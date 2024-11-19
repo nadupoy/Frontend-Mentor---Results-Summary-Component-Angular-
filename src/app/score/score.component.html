@@ -1,0 +1,14 @@
+@for (value of data; track value.category) {
+  <div style="background-color: {{ value.backgroundColor }};">
+    <div>
+      <img src="{{ value.icon }}" alt="icon" />
+      <p>
+        <span>{{ value.category }}</span>
+      </p>
+    </div>
+
+    <p>
+      <span>{{ value.score }}</span> / 100
+    </p>
+  </div>
+}
