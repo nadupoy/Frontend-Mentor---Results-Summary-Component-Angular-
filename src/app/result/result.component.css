@@ -1,0 +1,47 @@
+/* Small devices */
+@media only screen and (max-width: 767px) {
+  .result-card {
+    background-image: linear-gradient(
+      var(--light-slate-blue),
+      var(--light-royal-blue)
+    );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--light-lavender);
+    font-size: var(--font-size-paragraphs);
+    border-radius: 0px 0px 32px 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 32px;
+  }
+
+  .total-score {
+    background-image: linear-gradient(var(--violet-blue), var(--persian-blue));
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    padding: 24px;
+    border-radius: 50%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .total-score span {
+    font-size: 48px;
+    font-weight: 800;
+    color: var(--white);
+  }
+
+  p:nth-of-type(2) {
+    font-size: 24px;
+    color: var(--white);
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .remarks {
+    width: 80%;
+    text-align: center;
+  }
+}

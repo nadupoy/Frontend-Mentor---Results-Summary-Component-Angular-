@@ -1,0 +1,18 @@
+button {
+  background-color: hsl(224, 30%, 27%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 32px;
+  font-size: var(--font-size-paragraphs);
+}
+
+button:hover {
+  cursor: pointer;
+  background-image: linear-gradient(
+    var(--light-slate-blue),
+    var(--light-royal-blue)
+  );
+}

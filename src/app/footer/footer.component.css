@@ -1,0 +1,21 @@
+/* Small devices */
+@media only screen and (max-width: 767px) {
+  footer {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: small;
+    text-align: center;
+    color: var(--dark-gray-blue);
+  }
+
+  footer a,
+  footer a:visited {
+    text-decoration: none;
+    color: var(--dark-gray-blue);
+    font-weight: 800;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+}

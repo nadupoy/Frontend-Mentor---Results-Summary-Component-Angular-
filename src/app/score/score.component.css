@@ -1,0 +1,24 @@
+/* Small devices */
+@media only screen and (max-width: 767px) {
+  .score {
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    margin-bottom: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+  }
+
+  img {
+    justify-self: center;
+  }
+
+  .score-value {
+    justify-self: center;
+    color: var(--dark-gray-blue);
+  }
+
+  .score-value > span {
+    font-weight: 800;
+  }
+}
