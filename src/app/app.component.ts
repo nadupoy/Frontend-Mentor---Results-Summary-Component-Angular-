@@ -8,8 +8,8 @@ import { FooterComponent } from './footer/footer.component';
   standalone: true,
   imports: [ResultComponent, SummaryComponent, FooterComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'results-summary-component';
+  
 }
