@@ -22,3 +22,27 @@
     font-weight: 800;
   }
 }
+
+/* Medium to Large devices */
+@media only screen and (min-width: 768px) {
+  .score {
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    margin-bottom: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 8px;
+  }
+
+  img {
+    justify-self: center;
+  }
+
+  .score-value {
+    color: var(--dark-gray-blue);
+  }
+
+  .score-value > span {
+    font-weight: 800;
+  }
+}

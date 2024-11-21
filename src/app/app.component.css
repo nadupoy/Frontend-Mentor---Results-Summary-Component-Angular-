@@ -7,8 +7,14 @@
   }
 }
 
-/* Medium devices */
+/* Medium to Large devices */
 @media only screen and (min-width: 768px) {
+  main {
+    width: 640px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
 }
 
 /* Large devices */

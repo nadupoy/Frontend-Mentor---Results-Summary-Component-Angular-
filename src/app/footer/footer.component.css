@@ -19,3 +19,24 @@
     text-decoration: underline;
   }
 }
+
+/* Medium to Large devices */
+@media only screen and (min-width: 768px) {
+  footer {
+    margin-top: 32px;
+    font-size: small;
+    text-align: center;
+    color: var(--dark-gray-blue);
+  }
+
+  footer a,
+  footer a:visited {
+    text-decoration: none;
+    color: var(--dark-gray-blue);
+    font-weight: 800;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+}
