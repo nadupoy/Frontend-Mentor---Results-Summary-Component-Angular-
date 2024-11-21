@@ -42,8 +42,6 @@
     flex-direction: column;
     justify-content: center;
     border-radius: 0px 32px 32px 0px;
-    background-color: var(--white);
-    box-shadow: 1px 1px 5px var(--dark-gray-blue);
   }
 
   h2 {
